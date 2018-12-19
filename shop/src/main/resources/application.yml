@@ -13,3 +13,24 @@ spring:
       hibernate:
         ddl-auto: create-drop
       show-sql: true
+
+name: kim
+
+my:
+  name:
+    first: sungpark
+    last: kim
+  email: urstory@gmail.com
+---
+
+spring:
+  profiles: local
+
+name: lee
+
+---
+
+spring:
+  profiles: real
+
+name: kang
